@@ -18,18 +18,31 @@ body {
     z-index: 1000;
 }
 
-.navbar {
+/* .navbar {
     max-width: 1100px;
     margin: auto;
     padding: 15px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+} */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
 }
 
 .logo {
-    color: #fff;
+    margin-right: auto; /* pushes everything else to the right */
+     color: #fff;
 }
+
+
+/* .logo {
+    color: #fff;
+} */
 
 .nav-links {
     list-style: none;
